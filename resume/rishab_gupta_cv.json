@@ -74,9 +74,44 @@
       "position": "Tech Enablement / Web Development & BDE Intern",
       "startDate": "2024-02",
       "endDate": "2024-04",
-      "summary": "Supported web development and technical enablement initiatives while contributing to business development and stakeholder outreach.",
+      "summary": "Web development and technical enablement initiatives.",
       "highlights": [
         "Supported web development and technical enablement initiatives while contributing to business development and stakeholder outreach."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cloud-Native 3-Tier Application on GCP",
+      "description": "Designed and deployed a cloud-native 3-tier application on GKE using Terraform for infrastructure provisioning and Helm for Kubernetes application deployment. Implemented automated build and deployment workflows using GitHub Actions, enabling consistent container image builds and application updates.",
+      "keywords": [
+        "Flask",
+        "Docker",
+        "GKE",
+        "Cloud SQL",
+        "Terraform",
+        "Helm",
+        "GitHub Actions"
+      ],
+      "highlights": [
+        "Designed and deployed a cloud-native 3-tier application on GKE using Terraform for infrastructure provisioning and Helm for Kubernetes application deployment.",
+        "Implemented automated build and deployment workflows using GitHub Actions, enabling consistent container image builds and application updates."
+      ]
+    },
+    {
+      "name": "Context-Aware Image Retrieval System",
+      "description": "Built a multi-modal image retrieval system combining BLIP-based captioning with TF-IDF, Levenshtein distance, and SBERT embeddings for hybrid semantic search. Deployed the application on GCP with a Gradio-based interface, focusing on low-latency inference and scalable request handling.",
+      "keywords": [
+        "Python",
+        "BLIP",
+        "SBERT",
+        "GCP",
+        "Gradio",
+        "Hybrid Semantic Search"
+      ],
+      "highlights": [
+        "Built a multi-modal image retrieval system combining BLIP-based captioning with TF-IDF, Levenshtein distance, and SBERT embeddings for hybrid semantic search.",
+        "Deployed the application on GCP with a Gradio-based interface, focusing on low-latency inference and scalable request handling."
       ]
     }
   ],
@@ -86,7 +121,8 @@
       "startDate": "2020-09",
       "endDate": "2024-05",
       "area": "Computer Science",
-      "studyType": "Bachelor of Technology"
+      "studyType": "Bachelor of Technology",
+      "score": "GPA: 8.48/10"
     }
   ],
   "skills": [
@@ -161,6 +197,20 @@
         "Gemini",
         "Agentic AI"
       ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Advanced SQL Certification",
+      "issuer": "HackerRank"
+    },
+    {
+      "name": "MongoDB University Certification",
+      "issuer": "MongoDB"
+    },
+    {
+      "name": "Foundations of Modern Machine Learning",
+      "issuer": "IHub @ IITH"
     }
   ],
   "languages": [

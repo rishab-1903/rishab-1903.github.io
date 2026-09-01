@@ -1,7 +1,13 @@
-# Usage
+# Rishab Gupta Bejgum - Resume
 
-## With puppeteer
+## Usage
+
+### With Puppeteer (Generate PDF)
+```bash
 npm run start
+```
 
-## With resumed (not recommeded)
-npx resumed viacheslav_mogilevskii_cv.json --theme jsonresume-theme-macchiato  -o viacheslav_mogilevskii_cv.html
+### With Resumed (Generate HTML)
+```bash
+npx resumed rishab_gupta_cv.json --theme jsonresume-theme-macchiato -o rishab_gupta_cv.html
+```

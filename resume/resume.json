@@ -1,6 +1,5 @@
 {
-
-  "name": "Viacheslav Mogilevsky",
+  "name": "Rishab Gupta Bejgum",
 
   "meta": {
     "format": "FRESH@0.6.0",
@@ -8,280 +7,183 @@
   },
 
   "info": {
-    "label": "DevOps engineer",
-    "characterClass": "Programmer",
-    "brief": "Three years of experience in CI. Four years of experience in continuous delivery, provisioning and deployment. Five years of experience in software engineering."
+    "label": "Associate Software Engineer — Platform Engineering",
+    "characterClass": "Platform Engineer",
+    "brief": "Platform & Cloud Engineer with experience across AWS and GCP, specializing in infrastructure provisioning with Terraform, Kubernetes (GKE), CI/CD automation, cloud security foundations, and observability."
   },
 
   "contact": {
-    "email": "triggerwoods91@gmail.com"
+    "email": "rishabgupta2003@gmail.com",
+    "phone": "+91-9347272654"
   },
 
   "location": {
-    "city": "Kazan",
-    "region": "",
-    "code": "",
-    "country": "Russia"
+    "city": "Hyderabad",
+    "region": "Telangana",
+    "code": "IND",
+    "country": "India"
   },
 
   "projects": [
     {
-      "title": "Sparkery",
-      "category": "FOSS",
-      "role": "contributor",
-      "url": "https://github.com/viatcheslavmogilevsky/sparkery",
-      "start": "2016-08",
-      "repo": "https://github.com/viatcheslavmogilevsky/sparkery",
-      "description": "Infrastructure template for Spark cluster on AWS",
-      "summary": "",
-      "keywords": ["AWS", "Spark", "Terraform", "Ansible"]
+      "title": "Cloud-Native 3-Tier Application on GCP",
+      "category": "Cloud Architecture",
+      "role": "Creator",
+      "start": "2024",
+      "description": "Designed and deployed a cloud-native 3-tier application on GKE using Terraform for infrastructure provisioning and Helm for Kubernetes application deployment.",
+      "summary": "Implemented automated build and deployment workflows using GitHub Actions, enabling consistent container image builds and application updates.",
+      "keywords": ["Flask", "Docker", "GKE", "Cloud SQL", "Terraform", "Helm", "GitHub Actions"]
+    },
+    {
+      "title": "Context-Aware Image Retrieval System",
+      "category": "Machine Learning & Cloud",
+      "role": "Creator",
+      "start": "2024",
+      "description": "Built a multi-modal image retrieval system combining BLIP-based captioning with TF-IDF, Levenshtein distance, and SBERT embeddings for hybrid semantic search.",
+      "summary": "Deployed the application on GCP with a Gradio-based interface, focusing on low-latency inference and scalable request handling.",
+      "keywords": ["Python", "BLIP", "SBERT", "GCP", "Gradio", "TF-IDF"]
     }
   ],
 
   "social": [
-
     {
       "label": "GitHub",
       "network": "GitHub",
-      "user": "viatcheslavmogilevsky",
-      "url": "https://github.com/viatcheslavmogilevsky"
+      "user": "rishab-1903",
+      "url": "https://github.com/rishab-1903"
     },
-
     {
       "label": "LinkedIn",
       "network": "LinkedIn",
-      "user": "mogilevski",
-      "url": "https://linkedin.com/in/mogilevski"
+      "user": "rishabgupta1903",
+      "url": "https://linkedin.com/in/rishabgupta1903"
     }
   ],
 
   "employment": {
-
-    "summary": "5 years industry IT and software development experience.",
-
+    "summary": "Associate Software Engineer working on Cloud Platform Engineering across AWS and GCP.",
     "history": [
       {
-        "employer": "UpMetrics",
-        "position": "DevOps engineer",
-        "summary": "Ops tasks for [UpMetrics](https://www.upmetrics.com)",
-        "start": "2017-06",
+        "employer": "The Hartford Insurance Group",
+        "position": "Associate Software Engineer — Platform Engineering",
+        "summary": "Work on cloud platform engineering across AWS and GCP, supporting infrastructure provisioning, application onboarding, observability, deployment automation, and secure cloud integrations.",
+        "start": "2026-05",
         "highlights": [
-          "TravisCI - continuous integration service",
-          "Ansible - dynamic inventory",
-          "Capistrano - deployment tool",
-          "Terraform - full stack provision in AWS"
+          "Develop and maintain Terraform-based infrastructure for persistent and non-persistent application environments, enabling repeatable provisioning and consistent platform configurations.",
+          "Implement application observability across monitoring, logging, tracing, and telemetry for newly onboarded workloads, improving operational visibility and troubleshooting.",
+          "Support application deployment and release workflows using Jenkins, Harness, AWS CodePipeline, and AWS CodeBuild, working with automated build and deployment processes across environments.",
+          "Work with AWS serverless services and foundational cloud infrastructure, while supporting secure cross-cloud connectivity between AWS and GCP using Workload Identity Federation (WIF).",
+          "Configure enterprise identity integrations using Microsoft Entra ID and SSO, and contribute to GCP platform workflows involving Vertex AI, Google ADK, and agentic AI applications."
         ]
       },
       {
-        "employer": "Ninthdecimal",
-        "position": "DevOps engineer",
-        "summary": "Miscellaneous ops tasks for [Ninthdecimal](http://www.ninthdecimal.com/) - the mobile audience intelligence platform",
-        "start": "2015-05",
-        "end": "2017-09",
+        "employer": "Cloudwerx Worldwide Private Limited",
+        "position": "Cloud / Platform Engineering (Storypeach Technologies — EOR: Mar 2026 – Apr 2026)",
+        "summary": "Worked on Platform & Security engineering, focusing essentially on cloud infrastructure deployment with key focuses on workload & governance layers.",
+        "start": "2025-04",
+        "end": "2026-04",
         "highlights": [
-          "Ansible - continuous integration tasks",
-          "Ansible - provision for each component (install system libraries, programming languages)",
-          "Ansible - custom ansible plugins (audit trail)",
-          "Docker - building image for cleanup unused Docker directories. See [pull request](https://github.com/chadoe/docker-cleanup-volumes/pull/13)",
-          "Docker - building image for Jenkins cluster (master and slave)",
-          "Docker - base image with Active Directory integration",
-          "Jenkins - continuous integration tool (deployed through Docker)",
-          "Jenkins - building temporary run-off images to gain environment on demand in a Docker container. Inspired by [this solution](http://www.ebaytechblog.com/2014/05/12/delivering-ebays-ci-solution-with-apache-mesos-part-ii/)",
-          "Jenkins - parallel distributed for integration tests (selenium + video recording)",
-          "Mesos - master and slave provisioning and management"
+          "Implemented secure GCP Cloud Foundations using Terraform, covering project hierarchy, IAM, VPC networking, organization policies, governance controls, and baseline security configurations.",
+          "Provisioned and supported cloud infrastructure for AWS-to-GCP migration initiatives, validating networking, compute, database, and application environments across both cloud platforms.",
+          "Deployed and managed Kubernetes workloads on GKE using Docker and Helm, configuring application networking and GCP Ingress for externally accessible services.",
+          "Worked with GCP networking and security including VPCs, IAM, firewall rules, service connectivity, access controls, and cloud resource configurations across application environments.",
+          "Implemented CI/CD automation using GitHub Actions and contributed to internal cloud asset visibility and dependency-mapping tooling for platform operations and migration activities."
         ]
       },
-
       {
-        "employer": "GetParcel",
-        "position": "DevOps engineer",
-        "summary": "Backend development, continuous integration and microservice architecure for [GetParcel](https://www.linkedin.com/search/results/index/?keywords=GetParcel) - platform for delivery services and online stores",
-        "start": "2014-09",
-        "end": "2015-05",
+        "employer": "Oppo India R&D Centre",
+        "position": "Internship Trainee",
+        "summary": "Linux-based engineering environment, firmware validation, debugging, and release workflows.",
+        "start": "2024-05",
+        "end": "2024-10",
         "highlights": [
-          "Ansible - full stack provision in AWS, dynamic inventory",
-          "Ansible - automation of system management (install software on hosts, etc), ad-hoc tasks",
-          "Ansible - application deployment (Nginx+Lua, Rails, Node.js)",
-          "Redis - storage for mobile device authentication",
-          "Sidekiq - delayed job processing",
-          "RabbitMQ - messaging environment among microservices",
-          "Nginx+Lua - authentication and complex proxy",
-          "CirceCI - continuous integration service",
-          "Papertrail - log aggregation from microservices"
+          "Worked in a Linux-based engineering environment, supporting software and firmware validation, debugging, and release workflows across 18+ Android device models.",
+          "Developed Python and Shell automation scripts to streamline regression testing, log analysis, and repetitive bring-up workflows, reducing manual validation effort.",
+          "Worked with GitHub Actions and Jenkins to support automated build, test, and validation workflows, gaining hands-on exposure to CI/CD practices and engineering automation.",
+          "Gained hands-on exposure to AWS fundamentals and AWS CodePipeline, supporting cloud-based CI/CD workflows and understanding automated software delivery across development environments.",
+          "Debugged and resolved 90+ system and kernel-level issues using Linux logs, driver events, shell tools, and system tracing, strengthening troubleshooting and production-oriented debugging skills."
         ]
       },
-
       {
-        "employer": "heallyTech",
-        "position": "DevOps engineer",
-        "summary": "Continuous deployment and automated cloud provision for [heallyTech](https://github.com/EquoTech) - telehealth platform",
-        "start": "2015-04",
-        "end": "2016-11",
+        "employer": "VJ-Hub, VNRVJIET",
+        "position": "Tech Enablement / Web Development & BDE Intern",
+        "summary": "Supported web development and technical enablement initiatives while contributing to business development and stakeholder outreach.",
+        "start": "2024-02",
+        "end": "2024-04",
         "highlights": [
-          "Terraform - full stack provision in AWS",
-          "Ansible - automation of system management (install software on hosts, etc)",
-          "Ansible - application deployment and configuration (Nginx, Rails)",
-          "Ansible - dynamic inventory"
+          "Supported web development and technical enablement initiatives while contributing to business development and stakeholder outreach."
         ]
-      },
-
-      {
-        "employer": "BeyondVIP",
-        "position": "Middle Ruby developer",
-        "summary": "Backend development and testing for [BeyondVIP](http://beyondvip.com/), cloud CRM for nightlife industry",
-        "start": "2013-03",
-        "end": "2014-08",
-        "highlights": [
-          "Resque - delay import of contacts from mobile device",
-          "Redis and Resque - asynchronous writing changes of ActiveRecord model data to commit log and further pulling changes to mobile device and browser (delayed replication)",
-          "Redis, Resque and Node.js - async push live changes of ActiveRecord model data to mobile device via WebSockets (async replication)",
-          "Nginx - web server (SSL and WSS support)",
-          "Redis - data storage which used for complex permission policy (CanCan gem is used)",
-          "Redis - data storage for mobile device authentication",
-          "Capistrano - deployment tool",
-          "RSpec - testing"
-        ]
-      },
-
-      {
-        "employer": "Maia360",
-        "position": "Junior Ruby developer",
-        "summary": "RoR application for [Maia360](https://www.indiegogo.com/projects/maia360-founding-the-biggest-dental-community-worldwide)",
-        "start": "2012-08",
-        "end": "2013-02",
-        "highlights": [
-          "ElasticSearch, Sphinx - search engine",
-          "Resque and ImageMagick - delay image and document processing",
-          "jQuery - front-end",
-          "AWS S3 - file storage",
-          "Nginx - web-server (SSL support)",
-          "[Flexpaper](https://flowpaper.com/) - PDF viewer on site"
-        ]
-      },
-
-      {
-        "employer": "Donately",
-        "position": "Ruby developer intern",
-        "summary": "Participation of developing RoR application for [Donately](https://donately.com), a fundraising platform",
-        "start": "2011-10",
-        "end": "2011-11",
-        "keywords": ["Ruby on Rails"]
       }
     ]
-
   },
 
   "education": {
-
-    "summary": "",
-
+    "summary": "Bachelor of Technology in Computer Science",
     "history": [
-
       {
-        "institution": "Kazan Technical University named by A.N. Tupolev",
-        "studyType": "Bachelor",
-        "area": "Information systems",
-        "start": "2010-09",
-        "end": "2014-06"
-      },
-
-      {
-        "institution": "Kazan Technical University named by A.N. Tupolev",
-        "studyType": "Master",
-        "area": "Computer and Systems Engineering",
-        "start": "2014-09",
-        "end": "2016-08"
-      },
-
-      {
-        "institution": "Technische Universität Ilmenau",
-        "studyType": "Master",
-        "area": "Research in Computer and Systems Engineering",
-        "start": "2015-10",
-        "end": "2016-04"
+        "institution": "VNR Vignana Jyothi Institute of Engineering & Technology",
+        "studyType": "Bachelor of Technology",
+        "area": "Computer Science",
+        "gpa": "8.48/10",
+        "start": "2020-09",
+        "end": "2024-05"
       }
     ]
-
   },
 
   "skills": {
-
     "sets": [
       {
-        "name": "Programming languages",
+        "name": "Cloud & Platform Engineering",
         "skills": [
-          "Python", "shell", "Ruby", "Lua", "JavaScript"
+          "AWS", "Google Cloud Platform", "GKE", "Cloud Run", "ECS", "Serverless", "Cloud Foundations"
         ]
       },
-
       {
-        "name": "Platforms",
+        "name": "Infrastructure & DevOps",
         "skills": [
-          "Ubuntu", "Centos", "AWS", "Digital Ocean", "Heroku"
+          "Terraform", "Docker", "Kubernetes", "Helm", "Jenkins", "Harness", "AWS CodePipeline", "AWS CodeBuild", "GitHub Actions", "CI/CD"
         ]
       },
-
       {
-        "name": "Frameworks and tools",
+        "name": "Programming & Scripting",
         "skills": [
-          "Ruby On Rails", "RSpec", "Node.js", "Openresty"
+          "Python", "Bash", "C/C++", "SQL", "Git", "REST APIs"
         ]
       },
-
       {
-        "name": "Version control",
+        "name": "Cloud Networking & Security",
         "skills": [
-          "Git", "subversion"
+          "VPC", "IAM", "Microsoft Entra ID", "SSO", "Workload Identity Federation", "Firewall Rules", "Governance", "Organization Policies"
         ]
       },
-
       {
-        "name": "Analytics",
+        "name": "Observability & Operations",
         "skills": [
-          "NewRelic", "Papertrail", "Datadog"
+          "Monitoring", "Logging", "Tracing", "Telemetry", "Infrastructure Automation", "System Debugging", "Application Onboarding"
         ]
       },
-
       {
-        "name": "Continuous Integration",
+        "name": "AI & Agentic Development",
         "skills": [
-          "Jenkins", "Travis CI", "CircleCI"
-        ]
-      },
-
-      {
-        "name": "Tech stack",
-        "skills": [
-          "Mesos", "MySQL", "Postgres", "RabbitMQ", "Redis", "Nginx", "Sphinx", "ElasticSearch"
-        ]
-      },
-
-      {
-        "name": "Ops stack",
-        "skills": [
-          "Docker", "Ansible", "Terraform", "Capistrano"
-        ]
-      },
-
-      {
-        "name": "Documentation tools",
-        "skills": [
-          "GitHub markdown", "Apiary.io"
+          "Vertex AI", "Google ADK", "Gemini", "Agentic AI"
         ]
       }
-
     ]
-
   },
 
-
-  "speaking": [
+  "certifications": [
     {
-      "title": "[Deploying Rails and NodeJS with Ansible](http://slides.com/triggerwoods/deck)",
-      "role": "Speaker",
-      "event": "Expert Fridays",
-      "location": "Kazan, Russia",
-      "date": "2014"
+      "title": "Advanced SQL Certification",
+      "issuer": "HackerRank"
+    },
+    {
+      "title": "MongoDB University Certification",
+      "issuer": "MongoDB"
+    },
+    {
+      "title": "Foundations of Modern Machine Learning",
+      "issuer": "IHub @ IITH"
     }
   ],
 
@@ -291,8 +193,8 @@
       "level": "Professional working proficiency"
     },
     {
-      "language": "Russian",
-      "level": "Native"
+      "language": "Hindi / Telugu",
+      "level": "Native / Working proficiency"
     }
   ]
 }

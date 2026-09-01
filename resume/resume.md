@@ -1,118 +1,76 @@
-Viacheslav Mogilevsky
-============
-Email: triggerwoods91@gmail.com
+# Rishab Gupta Bejgum
+Hyderabad, IND | +91-9347272654 | [rishabgupta2003@gmail.com](mailto:rishabgupta2003@gmail.com) | [linkedin.com/in/rishabgupta1903](https://linkedin.com/in/rishabgupta1903) | [github.com/rishab-1903](https://github.com/rishab-1903)
 
+---
 
+## Experience
 
-Two years of experience in CI. Three years of experience in continuous delivery, provisioning and deployment. Four years of experience in software engineering.
+### **The Hartford Insurance Group** — Hyderabad, IND
+*Associate Software Engineer — Platform Engineering* | **May 2026 — Present**
+- Work on **cloud platform engineering** across AWS and GCP, supporting infrastructure provisioning, application onboarding, observability, deployment automation, and secure cloud integrations.
+- Develop and maintain **Terraform-based infrastructure** for persistent and non-persistent application environments, enabling repeatable provisioning and consistent platform configurations.
+- Implement application **observability** across monitoring, logging, tracing, and telemetry for newly onboarded workloads, improving operational visibility and troubleshooting.
+- Support application deployment and release workflows using **Jenkins, Harness, AWS CodePipeline, and AWS CodeBuild**, working with automated build and deployment processes across environments.
+- Work with **AWS serverless services** and foundational cloud infrastructure, while supporting secure cross-cloud connectivity between AWS and GCP using Workload Identity Federation (WIF).
+- Configure enterprise identity integrations using **Microsoft Entra ID and SSO**, and contribute to GCP platform workflows involving Vertex AI, Google ADK, and agentic AI applications.
 
-## SKILLS
+### **Cloudwerx Worldwide Private Limited** — Hyderabad, IND
+*Cloud / Platform Engineering (Storypeach Technologies — EOR: Mar 2026 – Apr 2026)* | **Apr 2025 — Apr 2026**
+- Worked on Platform & Security engineering, focusing essentially on cloud infrastructure deployment with key focuses on workload & governance layers.
+- Implemented secure **GCP Cloud Foundations** using Terraform, covering project hierarchy, IAM, VPC networking, organization policies, governance controls, and baseline security configurations.
+- Provisioned and supported cloud infrastructure for **AWS-to-GCP migration** initiatives, validating networking, compute, database, and application environments across both cloud platforms.
+- Deployed and managed **Kubernetes workloads on GKE** using Docker and Helm, configuring application networking and GCP Ingress for externally accessible services.
+- Worked with **GCP networking and security** including VPCs, IAM, firewall rules, service connectivity, access controls, and cloud resource configurations across application environments.
+- Implemented CI/CD automation using **GitHub Actions** and contributed to internal cloud asset visibility and dependency-mapping tooling for platform operations and migration activities.
 
-  - Programming languages: Python shell Ruby Lua JavaScript 
-  - Platforms: Ubuntu Centos AWS Digital Ocean Heroku 
-  - Frameworks and tools: Ruby On Rails RSpec Node.js Openresty 
-  - Version control: Git subversion 
-  - Analytics: NewRelic Papertrail Datadog 
-  - Continuous Integration: Jenkins Travis CI CircleCI 
-  - Tech stack: Mesos MySQL Postgres RabbitMQ Redis Nginx Sphinx ElasticSearch 
-  - Ops stack: Docker Ansible Terraform Capistrano 
-  - Documentation tools: GitHub markdown Apiary.io 
+### **Oppo India R&D Centre** — Hyderabad, IND
+*Internship Trainee* | **May 2024 — Oct 2024**
+- Worked in a **Linux-based engineering environment**, supporting software and firmware validation, debugging, and release workflows across 18+ Android device models.
+- Developed **Python and Shell automation scripts** to streamline regression testing, log analysis, and repetitive bring-up workflows, reducing manual validation effort.
+- Worked with **GitHub Actions and Jenkins** to support automated build, test, and validation workflows, gaining hands-on exposure to CI/CD practices and engineering automation.
+- Gained hands-on exposure to **AWS fundamentals and AWS CodePipeline**, supporting cloud-based CI/CD workflows and understanding automated software delivery across development environments.
+- Debugged and resolved 90+ system and kernel-level issues using **Linux logs, driver events, shell tools, and system tracing**, strengthening troubleshooting and production-oriented debugging skills.
 
-## EMPLOYMENT
+### **VJ-Hub, VNRVJIET** — Hyderabad, IND
+*Tech Enablement / Web Development & BDE Intern* | **Feb 2024 — Apr 2024**
+- Supported web development and technical enablement initiatives while contributing to business development and stakeholder outreach.
 
-### *DevOps engineer*, Ninthdecimal (2015-05 — Present)
+---
 
-Miscellaneous ops tasks for [Ninthdecimal](http://www.ninthdecimal.com/) - the mobile audience intelligence platform
-  - Ansible - continuous integration tasks
-  - Ansible - provision for each component (install system libraries, programming languages)
-  - Ansible - custom ansible plugins (audit trail)
-  - Docker - building image for cleanup unused Docker directories. See [pull request](https://github.com/chadoe/docker-cleanup-volumes/pull/13)
-  - Docker - building image for Jenkins cluster (master and slave)
-  - Docker - base image with Active Directory integration
-  - Jenkins - continuous integration tool (deployed through Docker)
-  - Jenkins - building temporary run-off images to gain environment on demand in a Docker container. Inspired by [this solution](http://www.ebaytechblog.com/2014/05/12/delivering-ebays-ci-solution-with-apache-mesos-part-ii/)
-  - Jenkins - parallel distributed for integration tests (selenium + video recording)
-  - Mesos - master and slave provisioning and management
+## Technical Skills
 
-### *DevOps engineer*, Provectus (2014-09 — Present)
+- **Cloud & Platform Engineering:** AWS, Google Cloud Platform, GKE, Cloud Run, ECS, Serverless, Cloud Foundations
+- **Infrastructure & DevOps:** Terraform, Docker, Kubernetes, Helm, Jenkins, Harness, AWS CodePipeline, AWS CodeBuild, GitHub Actions, CI/CD
+- **Programming & Scripting:** Python, Bash, C/C++, SQL, Git, REST APIs
+- **Cloud Networking & Security:** VPC, IAM, Microsoft Entra ID, SSO, Workload Identity Federation, Firewall Rules, Governance, Organization Policies
+- **Observability & Operations:** Monitoring, Logging, Tracing, Telemetry, Infrastructure Automation, System Debugging, Application Onboarding
+- **AI & Agentic Development:** Vertex AI, Google ADK, Gemini, Agentic AI
 
-Backend development, continuous integration and microservice architecure for [GetParcel](http://getparcel.ru/) - platform for delivery services and online stores
-  - Ansible - full stack provision in AWS, dynamic inventory
-  - Ansible - automation of system management (install software on hosts, etc), ad-hoc tasks
-  - Ansible - application deployment (Nginx+Lua, Rails, Node.js)
-  - Redis - storage for mobile device authentication
-  - Sidekiq - delayed job processing
-  - RabbitMQ - messaging environment among microservices
-  - Nginx+Lua - authentication and complex proxy
-  - CirceCI - continuous integration service
-  - Papertrail - log aggregation from microservices
+---
 
-### *DevOps engineer*, Provectus (2015-04 — 2016-11)
+## Education
 
-Continuous deployment and automated cloud provision for [EquoTech](https://github.com/EquoTech) - telehealth platform
-  - Terraform - full stack provision in AWS
-  - Ansible - automation of system management (install software on hosts, etc)
-  - Ansible - application deployment and configuration (Nginx, Rails)
-  - Ansible - dynamic inventory
+### **VNR Vignana Jyothi Institute of Engineering & Technology** — Hyderabad, IND
+*Bachelor of Technology in Computer Science* | **GPA: 8.48/10**
 
-### *Middle Ruby developer*, Provectus (2013-03 — 2014-08)
+---
 
-Backend development and testing for [BeyondVIP](http://beyondvip.com/), cloud CRM for nightlife industry
-  - Resque - delay import of contacts from mobile device
-  - Redis and Resque - asynchronous writing changes of ActiveRecord model data to commit log and further pulling changes to mobile device and browser (delayed replication)
-  - Redis, Resque and Node.js - async push live changes of ActiveRecord model data to mobile device via WebSockets (async replication)
-  - Nginx - web server (SSL and WSS support)
-  - Redis - data storage which used for complex permission policy (CanCan gem is used)
-  - Redis - data storage for mobile device authentication
-  - Capistrano - deployment tool
-  - RSpec - testing
+## Projects
 
-### *Junior Ruby developer*, Provectus (2012-08 — 2013-02)
+### **Cloud-Native 3-Tier Application on GCP**
+*Flask, Docker, GKE, Cloud SQL, Terraform, Helm*
+- Designed and deployed a **cloud-native 3-tier application on GKE** using Terraform for infrastructure provisioning and Helm for Kubernetes application deployment.
+- Implemented automated build and deployment workflows using **GitHub Actions**, enabling consistent container image builds and application updates.
 
-RoR application for [Solitical](https://angel.co/solitical); RoR application for [Maia360](https://www.indiegogo.com/projects/maia360-founding-the-biggest-dental-community-worldwide)
-  - ElasticSearch, Sphinx - search engine
-  - Resque and ImageMagick - delay image and document processing
-  - jQuery - front-end
-  - AWS S3 - file storage
-  - Nginx - web-server (SSL support)
-  - [Flexpaper](https://flowpaper.com/) - PDF viewer on site
+### **Context-Aware Image Retrieval System**
+*Python, BLIP, SBERT, GCP, Gradio*
+- Built a multi-modal image retrieval system combining BLIP-based captioning with TF-IDF, Levenshtein distance, and SBERT embeddings for hybrid semantic search.
+- Deployed the application on GCP with a Gradio-based interface, focusing on low-latency inference and scalable request handling.
 
-### *Intern*, Flatstack (2011-10 — 2011-11)
+---
 
-Participation of developing RoR application for [Donately](https://www.dntly.com), a fundraising platform
+## Certifications
 
-
-## PROJECTS
-
-### *Contributor*, [Sparkery](https://github.com/viatcheslavmogilevsky/sparkery) (2016-08 — Present)
-
-Infrastructure template for Spark cluster on AWS
-
-
-
-
-## EDUCATION
-
-### Kazan Technical University named by A.N. Tupolev (2010-09 — 2014-06)
-
-
-
-### Kazan Technical University named by A.N. Tupolev (2014-09 — 2016-08)
-
-
-
-
-
-
-
-
-
-
-## SPEAKING
-
-### *[Deploying Rails and NodeJS with Ansible](http://slides.com/triggerwoods/deck)*, Expert Fridays (2014)
-
-
-
-
-
+- Advanced SQL Certification | HackerRank
+- MongoDB University Certification | MongoDB
+- Foundations of Modern Machine Learning | IHub @ IITH
