@@ -68,14 +68,14 @@
 }
 
 html {
-  background: white;
+  background: #f8fafc;
 }
 
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  background: white;
-  margin: 50px 0 100px;
+  background: #f8fafc;
+  margin: 40px 0 80px;
   letter-spacing: .3px;
   color: #39424B;
 }
@@ -235,18 +235,6 @@ ul.two-column li {
   clear: both;
 }
 
-.profile-pic {
-  margin-top: -5px;
-  margin-right: 18px;
-}
-
-.profile-pic img {
-  height: 52px;
-  width: 52px;
-  border-radius: 50%;
-  border: 2px solid #56817A;
-}
-
 .summary {
   margin: 4px 0 4px;
 }
@@ -269,9 +257,11 @@ ul.two-column li {
   display: block;
   margin: 0 auto;
   border-top: 10px solid #56817A;
-  padding: 32px 28px 30px 32px;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  padding: 34px 30px 32px 34px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   box-sizing: border-box;
+  border-radius: 2px;
+  position: relative;
 }
 
 .page:after {
@@ -298,6 +288,38 @@ ul.two-column li {
 
 .item:last-child {
   margin-bottom: 0;
+}
+
+/* Download Button Styling */
+.download-action {
+  margin-top: 6px;
+}
+
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "Lato", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #56817A;
+  background: #f0f7f6;
+  border: 1px solid #56817A;
+  padding: 6px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-download:hover {
+  background: #56817A;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-download .fa {
+  font-size: 12px;
 }
 
 @media print {
@@ -329,8 +351,10 @@ ul.two-column li {
     page-break-inside: avoid;
   }
 
+  .download-action,
+  .btn-download,
   .fa-external-link {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -410,7 +434,10 @@ ul.two-column li {
             <h1>Rishab Gupta Bejgum</h1>
             <h2>Associate Software Engineer — Platform Engineering</h2>
         </div>
-        <div class="profile-pic pull-right">
+        <div class="download-action pull-right">
+            <a href="./rishab_gupta_cv.pdf" download="Rishab_Gupta_Resume.pdf" class="btn-download" title="Download Resume PDF">
+                <i class="fa fa-download"></i> Download PDF
+            </a>
         </div>
     </header>
     <div class="resume-content">
